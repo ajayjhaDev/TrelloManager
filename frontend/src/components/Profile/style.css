@@ -1,0 +1,35 @@
+.profile_name{
+    width:200px !important;
+    height: 200px !important;
+    margin: 20px !important;
+    background-color: #0e6cfd !important;
+}
+.font_size{
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+.todo_pill{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 800;
+    color: #106BFD;
+    border-radius: 8px;
+}
+.avatar_text{
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+  
+}
+.profile_text{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.profile_email{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}

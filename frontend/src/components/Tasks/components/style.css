@@ -1,0 +1,99 @@
+.add_task_container{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #686161;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.9;
+}
+.add_task_inner_container{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.input_text_area_container{
+    justify-content: space-between;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    height: 80vh;
+    opacity: 1;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+}
+.input_text_area_inner_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.inside_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+inside_col_container{
+    display: flex;
+    gap: 10px;
+
+}
+.insider_title{
+    font-size: medium;
+    color: grey;
+}
+.insider_view_title{
+    font-size: medium;
+    color: grey;
+    font-weight: 500;
+}
+.input_task_style{
+    padding: 10px 10px 10px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-width: 1px;
+    width: 100%;
+}
+.input_task_style:focus{
+    outline:none !important;
+}
+.text_area_style{
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    resize: none;
+}
+.text_area_style{
+    outline: none;
+}
+.button_container{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    
+}
+.save_btn{
+    padding: 8px 16px 8px 16px;
+    border: none;
+    background: #0c6dfd;
+    color:#fff;
+    border-radius: 4px;
+}
+.close_btn{
+    padding: 8px 16px 8px 16px;
+    border: none;
+    background: rgb(216, 62, 62);
+    color:#fff;
+    border-radius: 4px;
+}

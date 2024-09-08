@@ -1,0 +1,38 @@
+.active{
+    border:none;
+    padding:6px;
+    border-radius:4px;
+    width:100px;
+    background:#fff;
+    color:#0c6dfd;
+    cursor: pointer;
+}
+.non_active{
+    background:#0c6dfd;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+}
+.logout_btn{
+    background:rgb(216, 62, 62);
+    color:#fff;
+    border:none;
+    padding:6px;
+    border-radius:4px;
+    width:100px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a >.active :visited{
+    color:#0c6dfd;
+}
+
+.profile {
+    display: flex;
+    width: 100%;
+    gap:8px;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,85 @@
+.login_form_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_inner_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.title_style{
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #0c6dfd;
+}
+.login_input_div_container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #0c6dfd;
+    border-radius: 8px;
+}
+.login_input_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input_login_style{
+    width: 98%;
+    padding: 10px 0px 10px 4px;
+}
+
+.btn{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background: #0c6dfd;
+    color: white;
+}
+.google_login_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+
+
+}
+
+.google_login_container > span{
+    font-weight: 600;
+}
+.goggle_login_btn{
+    border-radius: 6px;
+    border: none;
+    background: #0c6dfd;
+    padding: 8px;
+    color: white;
+}
+.goggle_btn > span{
+    font-weight: 800;
+}
+.login_google_verification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #0e6cfd;
+    font-weight: 800;
+}
+@media (min-width: 768px) {
+    .login_input_div_container{
+        width: 500px;
+    }
+}

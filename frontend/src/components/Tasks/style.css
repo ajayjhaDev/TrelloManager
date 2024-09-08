@@ -1,0 +1,114 @@
+.main_container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* margin-top: 40px; */
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.add_task_btn{
+    border: none;
+    padding: 9px 50px 8px 50px;
+    border-radius: 4px;
+    background: #0c6dfd;
+    color: #fff;
+    /* margin: 20px 0px 0px 20px; */
+}
+
+.search_container{
+    width: 95%;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.02);
+    display: flex;
+    justify-content: space-between;
+    margin-left:10px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.search_container > span {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+.search_input{
+    width: 250px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #8080804f;
+    outline: none;
+    margin-top: 8px;
+}
+
+
+.task_container{
+    display: flex;
+    gap: 16px;
+    width: 95%;
+    margin: 0px 0px 0px 10px;
+}
+
+.task_inside_container{
+    width: 33%;
+    height: 70vh;
+    overflow: scroll;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 10px;
+
+}
+.task_title_div{
+    width: 100%;
+    background: #6da3f2;
+    color: white;
+    font-weight: 700;
+    padding: 10px 0px 10px;
+    margin-bottom: 10px;
+}
+.task_description{
+    font-size: 15px;
+    color: grey;
+    margin-top: 8px;
+}
+.task_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    background: #1586c233;
+    padding: 10px;
+    border-radius: 4px;
+}
+.btn_container{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.fun_btn{
+    padding: 6px;
+    border: none;
+    background: rgb(216, 62, 62);
+    color: white;
+    border-radius: 4px;
+}
+.blue{
+    background-color: #0c6dfd;
+}
+.light_blue{
+    background-color: rgb(12, 157, 253);
+}
+
+
+@media (max-width: 768px) {
+    .task_container{
+        flex-wrap: wrap;
+    }
+    .task_inside_container{
+        width: 100%;
+    }
+
+}
